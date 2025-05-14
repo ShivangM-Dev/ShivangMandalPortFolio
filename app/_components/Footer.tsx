@@ -100,7 +100,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <BackgroundBeams className="hidden sm:flex" />
+      <BackgroundBeams className="sm:flex" />
     </div>
   );
 };
