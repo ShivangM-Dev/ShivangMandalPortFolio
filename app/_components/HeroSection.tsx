@@ -21,10 +21,7 @@ const HeroSection = () => {
           <p className="uppercase font-bold text-sm tracking-widest">
             Based In India
           </p>
-          {/* <h1 className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-tight tracking-wide">
-            Quality Design &{" "}
-            <span className="text-primary">Web Development</span> Synergy
-          </h1> */}
+       
           <TextGenerateEffect
             words="Quality Design & Web Development Synergy"
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
@@ -38,7 +35,7 @@ const HeroSection = () => {
               <Link href="#work">See My Work</Link>
             </ShinyButton>
             <a
-              href="/resume/sm_resume.pdf"
+              href="/resume/shivang_resume.pdf"
               download
               className="flex items-center gap-2.5 group"
             >
