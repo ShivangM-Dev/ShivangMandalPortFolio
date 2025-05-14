@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    swcMinify: true, // Faster builds
-    experimental: {
-      serverActions: true, // if you're using Server Actions
+    output: 'export',
+    eslint: {
+      ignoreDuringBuilds: true,
     },
-    // No need for 'output: export' unless you need a static-only site
-  }
+    images: { unoptimized: true },
+  };
   
-  module.exports = nextConfig
-  
+  module.exports = nextConfig;
