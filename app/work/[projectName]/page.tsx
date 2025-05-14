@@ -51,6 +51,7 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
     imageUrl,
     techStack,
     liveDemoUrl,
+  
   } = project;
 
   return (
@@ -96,9 +97,10 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
                 <div className="flex items-center gap-4 mt-10">
                   <ShinyButton icon={<Globe />} iconPosition="left">
                     <Link href={liveDemoUrl} target="_blank">
-                      Visit Site
+                      View Demo
                     </Link>
                   </ShinyButton>
+
                 </div>
               </div>
 
